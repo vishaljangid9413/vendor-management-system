@@ -13,7 +13,7 @@ The Vendor Management System is a web application built with Django and Django R
 ### MyApp
 
 - **Vendor Management:** Allows the creation, modification, and deletion of vendor profiles, including details such as name, contact details, address, and vendor code.
-- **Purchase Order Management:** Facilitates the creation, updating, and deletion of purchase orders, including details such as order date, delivery date, items, quantity, status, and quality rating.
+- **Purchase Order Management:** Facilitates the creation, updating, and deletion of purchase orders, including details such as order date, delivery date, items, quantity, status, and quality rating. (For filtering with the vendor, send the query_params:vendor_id in GET request)
 - **Performance Metrics:** Automatically calculates and updates performance metrics for vendors, including on-time delivery rate, quality rating average, average response time, and fulfillment rate.
 
 ## Installation and Setup
